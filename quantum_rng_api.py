@@ -163,3 +163,4 @@ if __name__ == "__main__":
     # A simple entropy test: bits should be somewhat evenly distributed
     ratio = ones / n_bits
     print(f"Entropy test: {'Pass' if 0.4 < ratio < 0.6 else 'Fail'}")
+
