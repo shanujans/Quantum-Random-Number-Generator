@@ -1,10 +1,10 @@
-# Quantum Random Number Generator (QRNG) - Private Implementation
+# Quantum Random Number Generator (QRNG) - Public View
 
 ## Project Overview
 
 This project implements a robust Quantum Random Number Generator (QRNG) utilizing IBM Quantum's cloud-based quantum computers. Unlike traditional pseudo-random number generators (PRNGs) which operate on deterministic algorithms, this QRNG leverages the inherent, fundamental randomness of quantum mechanics. By measuring qubits in a state of superposition, it produces truly unpredictable bits, making it uniquely suited for applications requiring the highest level of cryptographic security and genuine unpredictability.
 
-This repository serves as my private technical backbone and operational code for delivering specialized quantum randomness services to clients with critical security and randomness requirements.
+This repository serves as a **public demonstration** of my capabilities in quantum computing and high-security randomness generation.
 
 ## How It Works: The Quantum Randomness Process
 
@@ -25,7 +25,23 @@ The core mechanism of this QRNG is based on the principles of quantum mechanics:
 *   **Customizable Bit Length:** Supports the generation of random bit strings ranging from 8 to 256 bits, allowing for flexibility based on specific application requirements (e.g., cryptographic key lengths).
 *   **Basic Randomness Verification:** Provides an immediate check of bit distribution (number of zeros and ones) and a simple entropy test to offer a quick indication of the randomness quality.
 
-## Technical Requirements (For Development & Operation)
+---
+
+## **Usage & Licensing Terms**
+
+This project is made public for **demonstration and portfolio purposes only**.
+
+**All Rights Reserved.**
+
+**Commercial Use, Redistribution, Modification, and Public Deployment of this code or its derivatives are NOT permitted without explicit written permission.**
+
+If you are interested in utilizing this Quantum Random Number Generation capability for commercial applications, secure key generation, or custom solutions, please **contact me directly** to discuss licensing, service agreements, or potential collaborations.
+
+**Contact:** [Email Address - shanujansh@gmail.com]
+
+---
+
+## Technical Requirements (For Running This Project)
 
 To set up and run this project, you will need:
 
@@ -35,19 +51,17 @@ To set up and run this project, you will need:
     *   `qiskit-aer`
     *   `qiskit-ibm-runtime`
     *   `python-dotenv`
-*   **IBM Quantum Account:** An active IBM Quantum account is necessary to obtain an API key for accessing IBM's quantum computing services. A free tier account provides sufficient access for specialized, low-volume random number generation tasks.
+*   **IBM Quantum Account:** An active IBM Quantum account is necessary to obtain an API key and access their quantum processors. A free tier account provides sufficient access for demonstration and occasional high-value use.
 
 ## Setup & Local Execution Instructions
 
-These instructions are for setting up the environment to run the QRNG locally:
+These instructions are for setting up the environment to run the QRNG locally for personal experimentation or demonstration purposes:
 
-1.  **Obtain Project Files:**
-    *   As this is a private repository, you would typically clone it if you have access rights:
-        ```bash
-        git clone https://github.com/shanujans/Quantum-Random-Number-Generator.git
-        cd Quantum-Random-Number-Generator
-        ```
-        (If you are operating entirely via the GitHub browser, you've already created and uploaded the files.)
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/shanujans/Quantum-Random-Number-Generator.git
+    cd Quantum-Random-Number-Generator
+    ```
 2.  **Create a Virtual Environment (Highly Recommended):**
     ```bash
     python -m venv venv
@@ -78,7 +92,7 @@ These instructions are for setting up the environment to run the QRNG locally:
     # On macOS/Linux:
     source venv/bin/activate
     ```
-2.  **Execute the Python script:**
+2.  **Execute the script:**
     ```bash
     python quantum_rng_api.py
     ```
@@ -94,8 +108,8 @@ Enter number of bits (8-256): 12
 ✅ Connected to IBM Quantum Cloud
 ℹ️ Using IBM Quantum instance: Quantum_rng
 🔧 Selected quantum processor: ibm_sherbrooke  # This may also show ibm_brisbane or another backend
-🚀 Job submitted. ID: d0vaf57p51os73b2****
-🔗 Monitor at: https://quantum.ibm.com/jobs/d0vaf57p51os73b2****
+🚀 Job submitted. ID: d0vaf57p51os73b2q
+🔗 Monitor at: https://quantum.ibm.com/jobs/d0vaf57p51os73b2q
 🎉 Quantum generation successful in 3.06s
 
 Random bits: 100101110011
@@ -106,17 +120,9 @@ Bit distribution: 5 zeros, 7 ones
 Entropy test: Pass
 ```
 
-## Service Offering & Monetization Strategy
+## Monetization Potential 
 
-This project's advanced capabilities form the foundation for offering specialized, high-value quantum randomness services. Unlike mass-market random number generation, my focus is on delivering unique, highly secure, and verifiable random data for critical applications.
+This project's advanced capabilities serve as a strong foundation for offering highly specialized, high-value quantum randomness services. My focus is on delivering unique, robust, and verifiable random data for critical applications where genuine unpredictability is paramount.
 
-**I leverage this technology to provide:**
+For inquiries regarding these specialized services, please refer to the "Usage & Licensing Terms" section above.
 
-*   **Custom Quantum-Derived Cryptographic Key/Seed Generation:** For clients requiring the absolute highest level of unpredictability in their cryptographic keys, blockchain addresses, secure identifiers, or initial seeds for sensitive systems. Services include generating keys of specified lengths (e.g., 128-bit, 256-bit) and delivering them through secure, mutually agreed-upon channels.
-*   **Quantum-Enhanced Pseudo-Random Number Generator (PRNG) Initialization:** For situations where clients utilize classical PRNGs but require a boost in initial entropy for specific, high-stakes events (e.g., lottery draws, highly sensitive simulations, secure protocol initiations). I provide a truly random, quantum-sourced seed to elevate the security and unpredictability of their existing systems.
-*   **Expert Quantum Randomness Consulting:** Offering guidance and strategic advice on the application, integration, and verification of quantum randomness within client's existing security architectures and development processes.
-
-**Monetization Approach:** My services are based on a premium, value-driven pricing model, reflecting the specialized nature and unparalleled security benefits of quantum-derived randomness. Given the resource-intensive nature of accessing quantum hardware, I focus on delivering bespoke, high-impact random data solutions rather than high-volume, low-value generation.
-
-For inquiries regarding specialized quantum randomness services or consultations, please contact me directly.
-```
