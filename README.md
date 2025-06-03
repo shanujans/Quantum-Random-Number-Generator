@@ -44,7 +44,7 @@ These instructions are for setting up the environment to run the QRNG locally:
 1.  **Obtain Project Files:**
     *   As this is a private repository, you would typically clone it if you have access rights:
         ```bash
-        git clone https://github.com/shanuajns/Quantum-Random-Number-Generator.git
+        git clone https://github.com/shanujans/Quantum-Random-Number-Generator.git
         cd Quantum-Random-Number-Generator
         ```
         (If you are operating entirely via the GitHub browser, you've already created and uploaded the files.)
