@@ -94,8 +94,8 @@ Enter number of bits (8-256): 12
 ✅ Connected to IBM Quantum Cloud
 ℹ️ Using IBM Quantum instance: Quantum_rng
 🔧 Selected quantum processor: ibm_sherbrooke  # This may also show ibm_brisbane or another backend
-🚀 Job submitted. ID: d0vaf57p51os73b2qsvg
-🔗 Monitor at: https://quantum.ibm.com/jobs/d0vaf57p51os73b2qsvg
+🚀 Job submitted. ID: d0vaf57p51os73b2****
+🔗 Monitor at: https://quantum.ibm.com/jobs/d0vaf57p51os73b2****
 🎉 Quantum generation successful in 3.06s
 
 Random bits: 100101110011
